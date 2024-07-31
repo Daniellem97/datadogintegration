@@ -6,3 +6,4 @@ module "spacelift_datadog" {
   space_id = "root"
   extra_tags = {"env":"prod"}
 }
+
