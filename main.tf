@@ -6,3 +6,8 @@ module "spacelift_datadog" {
   space_id = "root"
   extra_tags = {"env":"prod"}
 }
+
+variable "dd_api_key" {
+  description = "The API key for Datadog integration"
+  type        = string
+}
